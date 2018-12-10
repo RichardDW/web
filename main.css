@@ -1,0 +1,16 @@
+h1 {
+    color: cadetblue;
+    text-align: center;
+}
+
+@media (min-width: 800px) {
+    h1::before {
+        content: "Welcome to my webPage!";
+    }
+}
+
+@media (max-width: 799px) {
+    h1::before {
+        content: "Welcome!";
+    }
+}
