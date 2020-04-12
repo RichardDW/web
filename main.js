@@ -23,5 +23,8 @@ console.log(typeof name);
 console.log(typeof x);
 console.log(typeof z);
 
+//Concatenation
+console.log('My name is ' + name);
+
 
 
